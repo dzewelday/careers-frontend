@@ -1,0 +1,14 @@
+services:
+    db:
+      image: progressofficial/marklogic-db:latest
+      container_name: db
+      environment:
+        - MARKLOGIC_INIT=true
+        - MARKLOGIC_ADMIN_USERNAME=admin
+        - MARKLOGIC_ADMIN_PASSWORD=admin
+        - TZ=America/New_York
+      ports:
+        - 8000:8000
+        - 8001:8001
+        - 8002:8002
+        - 8040:8040
