@@ -5,7 +5,7 @@ import Steps from 'primevue/steps'
 import Textarea from 'primevue/textarea'
 import { minLength, object, pipe, safeParse, string } from 'valibot'
 import { ref } from 'vue'
-import ContactForm from '@/components/Shared/ContactForm.vue'
+import ContactForm from '@/components/ContactForm.vue'
 
 const active = ref(0)
 const items = ref([
