@@ -3,5 +3,5 @@
 </script>
 
 <template>
-  <router-view />
+  <div>Login Page</div>
 </template>

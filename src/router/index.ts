@@ -68,7 +68,6 @@ const router = createRouter({
   },
 })
 
-// Navigation guards
 router.beforeEach((to, from, next) => {
   const authStore = useAuthStore()
   const isAuthenticated = authStore.isAuthenticated

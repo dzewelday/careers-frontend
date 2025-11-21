@@ -1,7 +1,6 @@
 <script setup lang="ts">
-
 </script>
 
 <template>
-  <router-view />
+  <div>Claim Form Page</div>
 </template>
